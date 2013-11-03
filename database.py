@@ -35,7 +35,7 @@ def getFileName(url):
 # Connection to the database
 db = MySQLdb.connect( host="localhost", 
 											port=3306, user="root", 
-											passwd="password", 
+											passwd="thedoors0", 
 											db="meta-spider",
 											cursorclass=MySQLdb.cursors.DictCursor)
 """\
